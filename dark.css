@@ -10,7 +10,7 @@
 
 .message_body,
 .message_content_header,
-.message_sender {
+a .message_sender {
   color: rgba(255, 255, 255, 1) !important;
 }
 
