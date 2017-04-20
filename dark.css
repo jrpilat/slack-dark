@@ -1,5 +1,6 @@
 .day_container,
-#end_div {
+#end_div,
+#footer_msgs {
   background-color: rgba(41,41,41,1) !important;
 }
 
@@ -9,4 +10,8 @@
 
 .message_content_header, .message_body {
   color: rgba(255, 255, 255, 1) !important;
+}
+
+#msg_input {
+  background-color: rgba(255, 255, 255, 1) !important;
 }
