@@ -8,9 +8,10 @@
   background-color: rgba(68, 68, 68, 1) !important;
 }
 
+/* White Text */
 .message_body,
 .message_content_header,
-a.message_sender {
+.message_content .message_content_header .message_content_header_left .message_sender {
   color: rgba(255, 255, 255, 1) !important;
 }
 
