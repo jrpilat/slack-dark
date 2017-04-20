@@ -15,3 +15,7 @@
 #msg_input {
   background-color: rgba(255, 255, 255, 1) !important;
 }
+
+ts-message:hover {
+  background-color: rgba(68,68,68,1) !important;
+}
