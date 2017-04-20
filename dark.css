@@ -1,4 +1,5 @@
 .day_container {
+  color: rgba(255, 255, 255, 1) !important;
   background-color: rgba(41,41,41,1) !important;
 }
 
