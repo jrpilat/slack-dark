@@ -1,6 +1,7 @@
-.day_container,
+#client_header,
 #end_div,
-#footer_msgs {
+#footer_msgs,
+.day_container {
   background-color: rgba(41,41,41,1) !important;
 }
 
@@ -9,6 +10,9 @@
 }
 
 /* White Text */
+#channel_title,
+#channel_members_toggle_count_count,
+#pinned_item_count_count,
 .message_body,
 .message_content_header,
 .message_content .message_content_header .message_content_header_left .message_sender {
