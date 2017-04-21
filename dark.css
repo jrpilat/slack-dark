@@ -49,3 +49,9 @@ code {
   background-color: rgba(68,68,68,1) !important;
   border-color: rgba(68,68,68,1) !important;
 }
+
+a,
+a:link,
+a:visited {
+  color: rgba(114, 202, 255, 1) !important;
+}
