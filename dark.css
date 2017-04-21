@@ -9,7 +9,7 @@
 
 .btn_unstyle,
 .column_border,
-.day_divider {
+.day_divider_label {
   background-color: rgba(68, 68, 68, 1) !important;
 }
 
@@ -30,4 +30,8 @@
 
 ts-message:hover {
   background-color: rgba(68,68,68,1) !important;
+}
+
+day_msgs {
+  border-top-color: rgba(68,68,68,1) !important;
 }
