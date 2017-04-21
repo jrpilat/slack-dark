@@ -1,6 +1,8 @@
 #client_header,
+#client_body:not(.onboarding):before,
 #end_div,
 #footer_msgs,
+.channel_header,
 .day_container {
   background-color: rgba(41,41,41,1) !important;
 }
