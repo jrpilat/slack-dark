@@ -7,6 +7,8 @@
   background-color: rgba(41,41,41,1) !important;
 }
 
+ts-message:hover,
+#msg_input,
 .btn_unstyle,
 .column_border,
 .day_divider_label {
@@ -22,14 +24,6 @@
 .message_content_header,
 .message_content .message_content_header .message_content_header_left .message_sender {
   color: rgba(255, 255, 255, 1) !important;
-}
-
-#msg_input {
-  background-color: rgba(255, 255, 255, 1) !important;
-}
-
-ts-message:hover {
-  background-color: rgba(68,68,68,1) !important;
 }
 
 .day_msgs {
