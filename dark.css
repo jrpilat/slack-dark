@@ -11,7 +11,9 @@ ts-message:hover,
 #msg_input,
 .btn_unstyle,
 .column_border,
-.day_divider_label {
+.day_divider_label,
+.email_container,
+.file_container {
   background-color: rgba(68, 68, 68, 1) !important;
 }
 
@@ -33,4 +35,17 @@ ts-message:hover,
 
 #client_body:not(.onboarding):before {
   border-bottom-color: rgba(68,68,68,1) !important;
+}
+
+code,
+.email_header_meta,
+.email_header_title,
+.file_header_meta,
+.file_header_title {
+  color: rgba(211, 155, 70, 1) !important;
+}
+
+code {
+  background-color: rgba(68,68,68,1) !important;
+  border-color: rgba(68,68,68,1) !important;
 }
