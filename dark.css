@@ -32,6 +32,10 @@ ts-message:hover {
   background-color: rgba(68,68,68,1) !important;
 }
 
-day_msgs {
+.day_msgs {
   border-top-color: rgba(68,68,68,1) !important;
+}
+
+#client_body:not(.onboarding):before {
+  border-bottom-color: rgba(68,68,68,1) !important;
 }
