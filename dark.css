@@ -9,13 +9,16 @@
 #msgs_scroller_div,
 .channel_header,
 .day_container,
-.flex_content_scroller {
+.flex_content_scroller,
+.search_message_result,
+.search_result_with_extract {
   background-color: rgba(41,41,41,1) !important;
 }
 
 code,
 ts-message:hover,
 #flex_contents .subheading,
+#footer_archives,
 #msgs_div .unread_divider .divider_label,
 #msg_input,
 #search_filters a,
@@ -72,4 +75,9 @@ a:visited {
 .mention {
   color: rgba(0,0,0,1) !important;
   background-color: rgba(211,155,70,1) !important;
+}
+
+.search_result_with_extract {
+  box-shadow: 0 1px 10px rgba(211,155,70,1) !important;
+  border-color: rgba(211,155,70,1) !important;
 }
