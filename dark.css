@@ -8,19 +8,24 @@
 #messages_container.has_top_messages_banner:before,
 #msgs_scroller_div,
 .channel_header,
-.day_container {
+.day_container,
+.flex_content_scroller {
   background-color: rgba(41,41,41,1) !important;
 }
 
 code,
 ts-message:hover,
+#flex_contents .subheading,
+#msgs_div .unread_divider .divider_label,
 #msg_input,
+#search_filters a,
 .bot_label,
 .btn_unstyle,
 .column_border,
 .day_divider_label,
 .email_container,
-.file_container {
+.file_container,
+.heading {
   background-color: rgba(68, 68, 68, 1) !important;
 }
 
@@ -31,6 +36,7 @@ ts-message:hover,
 #pinned_item_count_count,
 .bot_label,
 .day_divider,
+.heading_text,
 .message_body,
 .message_content_header,
 .message_content .message_content_header .message_content_header_left .message_sender {
