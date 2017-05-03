@@ -9,6 +9,7 @@ ts-thread .thread-messages,
 #footer_msgs,
 #messages_container.has_top_messages_banner:before,
 #msgs_scroller_div,
+#threads_msgs_scroller_div,
 .channel_header,
 .day_container,
 .flex_content_scroller,
@@ -28,6 +29,7 @@ ts-message:hover,
 .btn_unstyle,
 .column_border,
 .day_divider_label,
+.divider_label,
 .email_container,
 .file_container,
 .heading {
@@ -42,6 +44,7 @@ ts-message:hover,
 .bot_label,
 .comment,
 .day_divider,
+.divider_label,
 .heading_text,
 .message_body,
 .message_content_header,
@@ -49,7 +52,8 @@ ts-message:hover,
   color: rgba(255, 255, 255, 1) !important;
 }
 
-.day_msgs {
+.day_msgs,
+.divider_line {
   border-top-color: rgba(68,68,68,1) !important;
 }
 
