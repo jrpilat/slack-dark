@@ -1,3 +1,5 @@
+ts-thread,
+ts-thread .thread-messages,
 #client_header,
 #client_body:not(.onboarding):before,
 #downloads_tab,
