@@ -11,6 +11,7 @@ ts-thread .thread-messages,
 #msgs_scroller_div,
 #threads_msgs_scroller_div,
 .channel_header,
+.channel_page_section,
 .day_container,
 .flex_content_scroller,
 .search_message_result,
@@ -45,10 +46,13 @@ ts-message:hover,
 .comment,
 .day_divider,
 .divider_label,
+.file_container pre,
 .heading_text,
 .message_body,
 .message_content_header,
-.message_content .message_content_header .message_content_header_left .message_sender {
+.message_content .message_content_header .message_content_header_left .message_sender,
+.pinned_item,
+.section_title {
   color: rgba(255, 255, 255, 1) !important;
 }
 
@@ -89,3 +93,9 @@ a:visited {
   box-shadow: 0 1px 10px rgba(211,155,70,1) !important;
   border-color: rgba(211,155,70,1) !important;
 }
+
+/* Transparent top border */
+.channel_page_section {
+  border-top-color: rgba(0,0,0,0) !important;
+}
+
